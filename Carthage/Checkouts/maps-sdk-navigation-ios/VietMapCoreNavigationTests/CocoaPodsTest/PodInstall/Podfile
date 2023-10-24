@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'PodInstall' do
+  # The branch of VietMapNavigation and VietMapNavigation will be replaced by Bitrise to use the current branch.
+  pod 'VietMapNavigation', :path => '../../../'
+  pod 'VietMapCoreNavigation', :path => '../../../'
+end

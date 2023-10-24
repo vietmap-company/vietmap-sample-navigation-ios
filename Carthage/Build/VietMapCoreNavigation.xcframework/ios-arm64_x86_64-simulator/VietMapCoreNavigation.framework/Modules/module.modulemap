@@ -1,0 +1,11 @@
+framework module VietMapCoreNavigation {
+  umbrella header "VietMapCoreNavigation.h"
+
+  export *
+  module * { export * }
+}
+
+module VietMapCoreNavigation.Swift {
+  header "VietMapCoreNavigation-Swift.h"
+  requires objc
+}

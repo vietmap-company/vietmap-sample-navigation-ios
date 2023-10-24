@@ -1,0 +1,17 @@
+{
+  "commitish" : "v0.10.2",
+  "iOS" : [
+    {
+      "hash" : "ab64417b44aed09daecd71f2690c15a57286f1af5b022049c455eafb49065ca8",
+      "name" : "MapboxMobileEvents",
+      "container" : "MapboxMobileEvents.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "582fac8150438a55015902b022eeb26214a1ce928664f7c349e150ea2ad1cfc6",
+      "name" : "MapboxMobileEvents",
+      "container" : "MapboxMobileEvents.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B4A91B37-C1B2-4106-9639-6FAD8B1A4017"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1104"
+            endingLineNumber = "1104"
+            landmarkName = "recenterMap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 93d9ce96ff14c962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.NavigationMapView.recenterMap() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 19d276454fa0726e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc MapboxNavigation.NavigationMapView.recenterMap() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 712f8c65192bf72c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.CarPlayNavigationViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - eb70f6ca77932bb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.CarPlayNavigationViewController.tracksUserCourse.setter : Swift.Bool"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 139446d60e1c66b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Dead&gt; of MapboxNavigation.CarPlayNavigationViewController.mapView(_: __C.MGLMapView, didFinishLoading: __C.MGLStyle) -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "704">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 926c3719acb1ccb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead&gt; of MapboxNavigation.CarPlayNavigationViewController.rerouted(__C.NSNotification) -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "0FF0B4D8-AD33-435E-9855-E6EDA34CE452 - 712f8c65192bf72c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.CarPlayNavigationViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1104"
+                  endingLineNumber = "1104"
+                  offsetFromSymbolStart = "1328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "372A3961-4D9D-4F95-8FAF-6831A4C19998"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxCoreNavigation/RouteController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
+            landmarkName = "interpolateLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EDD4817-5172-46EC-83D4-927B7377A67A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxCoreNavigation/RouteController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "interpolateLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95E7BE22-518B-4F52-9233-141E580E2573"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxCoreNavigation/RouteController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "320"
+            endingLineNumber = "320"
+            landmarkName = "interpolateLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "637ABDB7-8D44-4E4E-9DC7-BE228DD37E06"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "userCourseView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B519D66-9213-4F01-B067-F7B687AEC46E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "showsUserLocation"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DEE923D-0C4F-4D95-8BC9-2C055A5F7B9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carthage/Checkouts/vietmap-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1015"
+            endingLineNumber = "1015"
+            landmarkName = "localizeLabels()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DEE923D-0C4F-4D95-8BC9-2C055A5F7B9F - 71b970b9d6795e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.NavigationMapView.localizeLabels() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/vietmap-sample-navigation-ios/Carthage/Checkouts/vietmap-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1015"
+                  endingLineNumber = "1015"
+                  offsetFromSymbolStart = "2412">
+               </Location>
+               <Location
+                  uuid = "0DEE923D-0C4F-4D95-8BC9-2C055A5F7B9F - 71b970b9d6795e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.NavigationMapView.localizeLabels() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/vietmap-sample-navigation-ios/Carthage/Checkouts/vietmap-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1015"
+                  endingLineNumber = "1015"
+                  offsetFromSymbolStart = "2484">
+               </Location>
+               <Location
+                  uuid = "0DEE923D-0C4F-4D95-8BC9-2C055A5F7B9F - 71b970b9d6795eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.NavigationMapView.localizeLabels() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/vietmap-sample-navigation-ios/Carthage/Checkouts/vietmap-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1017"
+                  endingLineNumber = "1017"
+                  offsetFromSymbolStart = "2104">
+               </Location>
+               <Location
+                  uuid = "0DEE923D-0C4F-4D95-8BC9-2C055A5F7B9F - 71b970b9d6795eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapboxNavigation.NavigationMapView.localizeLabels() -&gt; ()"
+                  moduleName = "MapboxNavigation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nhatpv/Documents/build_sdk_navigate/iOS/vietmap-sample-navigation-ios/Carthage/Checkouts/vietmap-navigation-ios/MapboxNavigation/NavigationMapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1017"
+                  endingLineNumber = "1017"
+                  offsetFromSymbolStart = "2072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2310403-B242-4E72-B898-F53DA3BED42F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../maplibre-navigation-ios/Carthage/Checkouts/maplibre-navigation-ios/MapboxCoreNavigation/Locale.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "preferredLocalLanguageCountryCode"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

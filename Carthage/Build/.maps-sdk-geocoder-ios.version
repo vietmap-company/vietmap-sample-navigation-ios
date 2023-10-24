@@ -1,0 +1,19 @@
+{
+  "commitish" : "1.0.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "89474711abe56e6db60302a65b400b5018bb52061fe1546a06a668fcbd483ec4",
+      "name" : "MapboxGeocoder",
+      "container" : "MapboxGeocoder.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "156b9c1ce92acdbb93582f7c4916428dfa3836a212cc3831e94fd26020d4ab69",
+      "name" : "MapboxGeocoder",
+      "container" : "MapboxGeocoder.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}
