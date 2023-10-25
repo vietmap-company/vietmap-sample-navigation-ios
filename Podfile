@@ -6,7 +6,6 @@ target 'VietmapNavigationSample' do
   use_frameworks!
 
   pod "SearchTextField"
-  pod "VietMap" , '1.0.14'
 
   # Pods for VietmapNavigationSample
 

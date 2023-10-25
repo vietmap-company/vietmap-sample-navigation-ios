@@ -5,10 +5,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Vietmap Navigation-->
+        <!--Vietmap Autocomplete-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="mainMap" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="VietmapNavigationSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,29 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tfo-Ic-OqD">
-                                <rect key="frame" x="16" y="578" width="343" height="30"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nhấn giữ trên bản đồ để chọn vị trí" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-t6-Ect">
-                                        <rect key="frame" x="8" y="0.0" width="327" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="dEY-t6-Ect" firstAttribute="leading" secondItem="Tfo-Ic-OqD" secondAttribute="leading" constant="8" id="2sc-aG-7ON"/>
-                                    <constraint firstAttribute="bottom" secondItem="dEY-t6-Ect" secondAttribute="bottom" id="Jqn-xs-Vye"/>
-                                    <constraint firstItem="dEY-t6-Ect" firstAttribute="top" secondItem="Tfo-Ic-OqD" secondAttribute="top" id="ZYc-ea-W0j"/>
-                                    <constraint firstAttribute="height" constant="30" id="qq1-4B-EeT"/>
-                                    <constraint firstAttribute="trailing" secondItem="dEY-t6-Ect" secondAttribute="trailing" constant="8" id="xw9-0e-meb"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52U-cY-V4s" userLabel="Bottom Background View">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tf-yn-8jm" userLabel="Search View">
                                 <rect key="frame" x="5" y="64" width="365" height="50"/>
                                 <subviews>
@@ -64,80 +42,28 @@
                                     <constraint firstItem="ST9-Gg-Df5" firstAttribute="leading" secondItem="1tf-yn-8jm" secondAttribute="leading" id="zVc-C9-ydv"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgD-cs-dAn">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiq-Gf-SKY">
-                                        <rect key="frame" x="8" y="0.0" width="95" height="44"/>
-                                        <state key="normal" title="Xoá điểm đến"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="clearMapPressedV:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q6x-QE-QLX"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMe-Tl-a1N">
-                                        <rect key="frame" x="233" y="0.0" width="134" height="44"/>
-                                        <state key="normal" title="Bắt đầu điều hướng"/>
-                                        <connections>
-                                            <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xoh-ho-hPb"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="iiq-Gf-SKY" secondAttribute="bottom" id="7p5-1W-AI2"/>
-                                    <constraint firstAttribute="height" constant="44" id="NAn-eL-wzR"/>
-                                    <constraint firstItem="iiq-Gf-SKY" firstAttribute="top" secondItem="tgD-cs-dAn" secondAttribute="top" id="SNC-nT-W9c"/>
-                                    <constraint firstItem="iiq-Gf-SKY" firstAttribute="leading" secondItem="tgD-cs-dAn" secondAttribute="leading" constant="8" id="VMr-sP-IRW"/>
-                                    <constraint firstItem="nMe-Tl-a1N" firstAttribute="top" secondItem="tgD-cs-dAn" secondAttribute="top" id="h6j-5n-dYg"/>
-                                    <constraint firstAttribute="bottom" secondItem="nMe-Tl-a1N" secondAttribute="bottom" id="lTg-Mf-WlN"/>
-                                    <constraint firstAttribute="trailing" secondItem="nMe-Tl-a1N" secondAttribute="trailing" constant="8" id="yyl-3H-w1W"/>
-                                </constraints>
-                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bY6-e4-iDW">
+                                <rect key="frame" x="5" y="129" width="365" height="538"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eNZ-Hz-1oT"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="52U-cY-V4s" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="9K1-Lm-Kxd"/>
+                            <constraint firstItem="bY6-e4-iDW" firstAttribute="top" secondItem="1tf-yn-8jm" secondAttribute="bottom" constant="15" id="8BZ-fD-yMl"/>
                             <constraint firstItem="1tf-yn-8jm" firstAttribute="top" secondItem="eNZ-Hz-1oT" secondAttribute="top" id="AYP-fS-yUP"/>
-                            <constraint firstItem="52U-cY-V4s" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="DpJ-Ay-3wD"/>
-                            <constraint firstItem="52U-cY-V4s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Feq-fR-8fo"/>
-                            <constraint firstItem="eNZ-Hz-1oT" firstAttribute="trailing" secondItem="tgD-cs-dAn" secondAttribute="trailing" id="Fgp-Hc-0OK"/>
                             <constraint firstItem="eNZ-Hz-1oT" firstAttribute="trailing" secondItem="1tf-yn-8jm" secondAttribute="trailing" constant="5" id="PfC-Tq-4yc"/>
-                            <constraint firstItem="eNZ-Hz-1oT" firstAttribute="bottom" secondItem="tgD-cs-dAn" secondAttribute="bottom" id="dZs-zT-gb0"/>
-                            <constraint firstItem="Tfo-Ic-OqD" firstAttribute="leading" secondItem="eNZ-Hz-1oT" secondAttribute="leading" constant="16" id="eEd-cM-pFc"/>
-                            <constraint firstItem="tgD-cs-dAn" firstAttribute="leading" secondItem="eNZ-Hz-1oT" secondAttribute="leading" id="fio-xr-zWS"/>
+                            <constraint firstItem="eNZ-Hz-1oT" firstAttribute="trailing" secondItem="bY6-e4-iDW" secondAttribute="trailing" constant="5" id="YQE-Bh-cDl"/>
+                            <constraint firstItem="bY6-e4-iDW" firstAttribute="leading" secondItem="eNZ-Hz-1oT" secondAttribute="leading" constant="5" id="dVZ-DI-yIq"/>
                             <constraint firstItem="1tf-yn-8jm" firstAttribute="leading" secondItem="eNZ-Hz-1oT" secondAttribute="leading" constant="5" id="how-Ne-9nx"/>
-                            <constraint firstItem="52U-cY-V4s" firstAttribute="top" secondItem="Tfo-Ic-OqD" secondAttribute="bottom" constant="15" id="rRl-cZ-UWe"/>
-                            <constraint firstItem="tgD-cs-dAn" firstAttribute="top" secondItem="Tfo-Ic-OqD" secondAttribute="bottom" constant="15" id="sdu-md-ykj"/>
-                            <constraint firstItem="eNZ-Hz-1oT" firstAttribute="trailing" secondItem="Tfo-Ic-OqD" secondAttribute="trailing" constant="16" id="veQ-GA-9Zk"/>
+                            <constraint firstItem="bY6-e4-iDW" firstAttribute="bottom" secondItem="eNZ-Hz-1oT" secondAttribute="bottom" id="qbn-Gd-nLl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Vietmap Navigation" id="zxr-0T-HBr">
-                        <barButtonItem key="leftBarButtonItem" id="XbQ-fY-lUb">
-                            <button key="customView" hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="6ux-mK-LQF">
-                                <rect key="frame" x="16" y="7" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Xoá điểm đến"/>
-                                <connections>
-                                    <action selector="clearMapPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SHt-XT-eUM"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Vietmap Autocomplete" id="zxr-0T-HBr"/>
                     <connections>
-                        <outlet property="bottomBar" destination="tgD-cs-dAn" id="bIA-KH-Xa9"/>
-                        <outlet property="bottomBarBackground" destination="52U-cY-V4s" id="wSk-Ee-ww2"/>
-                        <outlet property="clearMap" destination="6ux-mK-LQF" id="9M7-CK-q1M"/>
-                        <outlet property="clearMapV" destination="iiq-Gf-SKY" id="4Qk-Gq-kgb"/>
-                        <outlet property="longPressHintView" destination="Tfo-Ic-OqD" id="gYu-YW-6FX"/>
+                        <outlet property="resultTableView" destination="bY6-e4-iDW" id="yUK-e1-xhr"/>
                         <outlet property="searchLocation" destination="ST9-Gg-Df5" id="qRq-jM-gLF"/>
-                        <outlet property="startButton" destination="nMe-Tl-a1N" id="tCJ-tk-vph"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -162,4 +88,9 @@
             <point key="canvasLocation" x="-826" y="35"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

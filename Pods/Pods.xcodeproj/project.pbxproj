@@ -6,38 +6,18 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		983CC2AC29F9EFF1FE8F1452D415DAF3 /* VietMap */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 5C7985A46D8B2FFAC656904882AF7A55 /* Build configuration list for PBXAggregateTarget "VietMap" */;
-			buildPhases = (
-				45B7EE9F8AEEE589B0AD61D1CA54D4ED /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-			);
-			name = VietMap;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		110F789900CFAD76820EC49CD1CCCBAF /* Pods-VietmapNavigationSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 923A7C4510EB0C654972F81662C28796 /* Pods-VietmapNavigationSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7001D61A505057C728C6FCF5688D1087 /* SearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C850CDD25D23B2378B210C46AB17FE9 /* SearchTextField-dummy.m */; };
-		7E14A480FE358CFBE3055498C83D63D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		903CC45A3B2503C16AB3DB622CD843F1 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3FE19B2D76EA839C057AB37397B5A /* SearchTextField.swift */; };
+		572DC706A1B90A0C4C13F30316B3BD90 /* Pods-VietmapNavigationSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12714D6C4D776071A8EE3A78AD6CB4C9 /* Pods-VietmapNavigationSample-dummy.m */; };
+		7001D61A505057C728C6FCF5688D1087 /* SearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */; };
+		903CC45A3B2503C16AB3DB622CD843F1 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */; };
 		A295A4CCB3719848C6D0C984794B136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AC2CF1C294514E7E3B2AE56440DCA1CB /* Pods-VietmapNavigationSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12714D6C4D776071A8EE3A78AD6CB4C9 /* Pods-VietmapNavigationSample-dummy.m */; };
-		E3DD5211E0939599AB451AD5CF372791 /* SearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFDD1C3A7B73D7BF19278D4C5E8B098 /* SearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D449E5F0606DECCA605104BD246B79E3 /* Pods-VietmapNavigationSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 923A7C4510EB0C654972F81662C28796 /* Pods-VietmapNavigationSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DD5211E0939599AB451AD5CF372791 /* SearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6734B0CEA07E51502259CC65E8B42B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		177AFCBC33D1C42B8E5A86C220F31B23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 983CC2AC29F9EFF1FE8F1452D415DAF3;
-			remoteInfo = VietMap;
-		};
-		1E7ED89996E3443975ED1797AD3B5A03 /* PBXContainerItemProxy */ = {
+		371A92A514AA8E2DC4CA83C6639B0989 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,42 +27,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C850CDD25D23B2378B210C46AB17FE9 /* SearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchTextField-dummy.m"; sourceTree = "<group>"; };
 		0E9CDA3470359B571EEF96A8EA16189F /* Pods-VietmapNavigationSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietmapNavigationSample-frameworks.sh"; sourceTree = "<group>"; };
-		11249619E178F1203AD602869C2E5820 /* VietMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietMap.release.xcconfig; sourceTree = "<group>"; };
 		12714D6C4D776071A8EE3A78AD6CB4C9 /* Pods-VietmapNavigationSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VietmapNavigationSample-dummy.m"; sourceTree = "<group>"; };
 		1463C85608138B3F1EB9200F06358DF5 /* Pods-VietmapNavigationSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VietmapNavigationSample"; path = Pods_VietmapNavigationSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.debug.xcconfig; sourceTree = "<group>"; };
 		1CF9874E881F3A2B60EF247E62CFC65D /* Pods-VietmapNavigationSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietmapNavigationSample-Info.plist"; sourceTree = "<group>"; };
 		24358A252C9D272D5EBD734C1037D187 /* Pods-VietmapNavigationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietmapNavigationSample.debug.xcconfig"; sourceTree = "<group>"; };
 		27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SearchTextField; path = SearchTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4F7F8F2FCBE67B4DE91E91CD9E4F18 /* SearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchTextField-Info.plist"; sourceTree = "<group>"; };
-		3FFDD1C3A7B73D7BF19278D4C5E8B098 /* SearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-umbrella.h"; sourceTree = "<group>"; };
-		4276D63792E28FC3A53C9196AB478464 /* SearchTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.debug.xcconfig; sourceTree = "<group>"; };
-		456151872A7356525071433F8F2CB726 /* VietMap-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "VietMap-xcframeworks.sh"; sourceTree = "<group>"; };
-		463970270E7058504B893B93C6E566F2 /* SearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchTextField.modulemap; sourceTree = "<group>"; };
 		5D9926371AAF82EFF8C150835EB42B06 /* Pods-VietmapNavigationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietmapNavigationSample.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BF3FE19B2D76EA839C057AB37397B5A /* SearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchTextField.swift; path = SearchTextField/Classes/SearchTextField.swift; sourceTree = "<group>"; };
+		87C5C2B872EC9B5F12FE1ED51B7E925E /* SearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchTextField.modulemap; sourceTree = "<group>"; };
 		923A7C4510EB0C654972F81662C28796 /* Pods-VietmapNavigationSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VietmapNavigationSample-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA0649FD3201772E88CFB2963FAE21A7 /* VietMap.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = VietMap.xcframework; sourceTree = "<group>"; };
 		AE68F7AC2FAAEF61F8D9FDB12738C43B /* Pods-VietmapNavigationSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietmapNavigationSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEE41C59D375FFC8A220587D296E78CE /* SearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-prefix.pch"; sourceTree = "<group>"; };
 		B2052F1306474468A2D1F23049E1F9DB /* Pods-VietmapNavigationSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VietmapNavigationSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BED6FFA5C16297FABACF08D01DC31BB4 /* SearchTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.release.xcconfig; sourceTree = "<group>"; };
-		D2C3B3D5DF7447EEDDD8CE48EF480C18 /* VietMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietMap.debug.xcconfig; sourceTree = "<group>"; };
-		D84F4E913C60D6B038A1966ABA3FFCC1 /* SearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-prefix.pch"; sourceTree = "<group>"; };
+		BDD288F1B866CAD56590FABD4A5187EC /* SearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchTextField-Info.plist"; sourceTree = "<group>"; };
+		D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-umbrella.h"; sourceTree = "<group>"; };
+		D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchTextField-dummy.m"; sourceTree = "<group>"; };
+		E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchTextField.swift; path = SearchTextField/Classes/SearchTextField.swift; sourceTree = "<group>"; };
+		EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.release.xcconfig; sourceTree = "<group>"; };
 		FF724548A9BD933B0A34D97127E4D331 /* Pods-VietmapNavigationSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VietmapNavigationSample.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E9FACB9EF840079D4F00596101787E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E14A480FE358CFBE3055498C83D63D4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8F7DE7FDCE92D9A12FEE8EC4D9632EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,9 +59,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C79D3DDFA21D71D63FFBD1F2AB9ECF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6734B0CEA07E51502259CC65E8B42B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10EEF578E1233F8FB3698F7B0E483368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C196B1E2874F3F2DF307C21C3B97 /* SearchTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2D1DCEC7EF1E56D40AFEE057EEF606FF /* Pods-VietmapNavigationSample */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,60 +103,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4A5D0A7A7192F34E1242C6177D44749C /* VietMap */ = {
-			isa = PBXGroup;
-			children = (
-				924BBCC66BB2676879B669368F6C4B94 /* Frameworks */,
-				9FE80D6BA651B5024BAA81AD524CD986 /* Support Files */,
-			);
-			name = VietMap;
-			path = VietMap;
-			sourceTree = "<group>";
-		};
-		576CC362E7BE252B9AF4A8A36B2A5141 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7425DADB0E2131867B534815C7502634 /* SearchTextField */,
-				4A5D0A7A7192F34E1242C6177D44749C /* VietMap */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7425DADB0E2131867B534815C7502634 /* SearchTextField */ = {
-			isa = PBXGroup;
-			children = (
-				7BF3FE19B2D76EA839C057AB37397B5A /* SearchTextField.swift */,
-				D4C87E56ECF600EFB68B244184761308 /* Support Files */,
-			);
-			name = SearchTextField;
-			path = SearchTextField;
-			sourceTree = "<group>";
-		};
-		924BBCC66BB2676879B669368F6C4B94 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AA0649FD3201772E88CFB2963FAE21A7 /* VietMap.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9FE80D6BA651B5024BAA81AD524CD986 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				456151872A7356525071433F8F2CB726 /* VietMap-xcframeworks.sh */,
-				D2C3B3D5DF7447EEDDD8CE48EF480C18 /* VietMap.debug.xcconfig */,
-				11249619E178F1203AD602869C2E5820 /* VietMap.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/VietMap";
 			sourceTree = "<group>";
 		};
 		A259A03B1239E6CCFEFA420CA89692F7 /* Products */ = {
@@ -184,12 +120,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		ACF4C196B1E2874F3F2DF307C21C3B97 /* SearchTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */,
+				B87926D3082B3B36D503BABAD83A2746 /* Support Files */,
+			);
+			name = SearchTextField;
+			path = SearchTextField;
+			sourceTree = "<group>";
+		};
+		B87926D3082B3B36D503BABAD83A2746 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C5C2B872EC9B5F12FE1ED51B7E925E /* SearchTextField.modulemap */,
+				D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */,
+				BDD288F1B866CAD56590FABD4A5187EC /* SearchTextField-Info.plist */,
+				AEE41C59D375FFC8A220587D296E78CE /* SearchTextField-prefix.pch */,
+				D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */,
+				1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */,
+				EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SearchTextField";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				576CC362E7BE252B9AF4A8A36B2A5141 /* Pods */,
+				10EEF578E1233F8FB3698F7B0E483368 /* Pods */,
 				A259A03B1239E6CCFEFA420CA89692F7 /* Products */,
 				443C0B1BE145F9B185D73D666B506848 /* Targets Support Files */,
 			);
@@ -203,37 +164,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4C87E56ECF600EFB68B244184761308 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				463970270E7058504B893B93C6E566F2 /* SearchTextField.modulemap */,
-				0C850CDD25D23B2378B210C46AB17FE9 /* SearchTextField-dummy.m */,
-				2F4F7F8F2FCBE67B4DE91E91CD9E4F18 /* SearchTextField-Info.plist */,
-				D84F4E913C60D6B038A1966ABA3FFCC1 /* SearchTextField-prefix.pch */,
-				3FFDD1C3A7B73D7BF19278D4C5E8B098 /* SearchTextField-umbrella.h */,
-				4276D63792E28FC3A53C9196AB478464 /* SearchTextField.debug.xcconfig */,
-				BED6FFA5C16297FABACF08D01DC31BB4 /* SearchTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SearchTextField";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1807F6E139E095B7CD34DBDBFE791150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D449E5F0606DECCA605104BD246B79E3 /* Pods-VietmapNavigationSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A4525D29045BE265F4F9FCAE2C89C02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E3DD5211E0939599AB451AD5CF372791 /* SearchTextField-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E431541A009A7F0598B2802143FC285B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				110F789900CFAD76820EC49CD1CCCBAF /* Pods-VietmapNavigationSample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,18 +206,17 @@
 		};
 		BBFA371764A9560016C9A0A6FE85B516 /* Pods-VietmapNavigationSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 929E72A8189236948B5A372E34CE65B5 /* Build configuration list for PBXNativeTarget "Pods-VietmapNavigationSample" */;
+			buildConfigurationList = B6B56244B115001428497B2B25E9E6D5 /* Build configuration list for PBXNativeTarget "Pods-VietmapNavigationSample" */;
 			buildPhases = (
-				E431541A009A7F0598B2802143FC285B /* Headers */,
-				03EDB1FF9BD86B0CCD52CD0DCC67DFA8 /* Sources */,
-				7E9FACB9EF840079D4F00596101787E8 /* Frameworks */,
-				F1024CBBB4B2CF86AA3DDB07DA9597E7 /* Resources */,
+				1807F6E139E095B7CD34DBDBFE791150 /* Headers */,
+				2125EAE025A7C179F765D919AE3A9D11 /* Sources */,
+				C79D3DDFA21D71D63FFBD1F2AB9ECF86 /* Frameworks */,
+				E028BAB94C27A771A3D07B3B067A6624 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5341192E44B9BA5238A0DAA5E9A56FEC /* PBXTargetDependency */,
-				6DDA35A122A89EF48D7FA072A6D9A56A /* PBXTargetDependency */,
+				F511308A99BA8370D63E8343C1B7277F /* PBXTargetDependency */,
 			);
 			name = "Pods-VietmapNavigationSample";
 			productName = Pods_VietmapNavigationSample;
@@ -302,7 +247,6 @@
 			targets = (
 				BBFA371764A9560016C9A0A6FE85B516 /* Pods-VietmapNavigationSample */,
 				8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */,
-				983CC2AC29F9EFF1FE8F1452D415DAF3 /* VietMap */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +259,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1024CBBB4B2CF86AA3DDB07DA9597E7 /* Resources */ = {
+		E028BAB94C27A771A3D07B3B067A6624 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,35 +268,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		45B7EE9F8AEEE589B0AD61D1CA54D4ED /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/VietMap/VietMap-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/VietMap/VietMap-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/VietMap/VietMap-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		03EDB1FF9BD86B0CCD52CD0DCC67DFA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC2CF1C294514E7E3B2AE56440DCA1CB /* Pods-VietmapNavigationSample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		05E442207DEC83B345D5624A3925F053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,27 +278,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2125EAE025A7C179F765D919AE3A9D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572DC706A1B90A0C4C13F30316B3BD90 /* Pods-VietmapNavigationSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5341192E44B9BA5238A0DAA5E9A56FEC /* PBXTargetDependency */ = {
+		F511308A99BA8370D63E8343C1B7277F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SearchTextField;
 			target = 8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */;
-			targetProxy = 1E7ED89996E3443975ED1797AD3B5A03 /* PBXContainerItemProxy */;
-		};
-		6DDA35A122A89EF48D7FA072A6D9A56A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VietMap;
-			target = 983CC2AC29F9EFF1FE8F1452D415DAF3 /* VietMap */;
-			targetProxy = 177AFCBC33D1C42B8E5A86C220F31B23 /* PBXContainerItemProxy */;
+			targetProxy = 371A92A514AA8E2DC4CA83C6639B0989 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4426D62995D3FCC9F9F9AC7F73AEAD7B /* Debug */ = {
+		21F55E6A8C15D2AA8CE1E2F2CF5D0480 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24358A252C9D272D5EBD734C1037D187 /* Pods-VietmapNavigationSample.debug.xcconfig */;
+			baseConfigurationReference = 5D9926371AAF82EFF8C150835EB42B06 /* Pods-VietmapNavigationSample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -412,14 +330,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		45AE49051165993569CEBC0C8E17CA14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BED6FFA5C16297FABACF08D01DC31BB4 /* SearchTextField.release.xcconfig */;
+			baseConfigurationReference = EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -449,41 +368,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68081341786DB05EF46BBC50788896C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2C3B3D5DF7447EEDDD8CE48EF480C18 /* VietMap.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		85CB6D2ABA7A91696A6B7FEA7F3F9DA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11249619E178F1203AD602869C2E5820 /* VietMap.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -615,9 +499,9 @@
 			};
 			name = Release;
 		};
-		9F69CB15C925FB010712E32AE48F044D /* Release */ = {
+		B72035C398FF3A3D638CB89D10666D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D9926371AAF82EFF8C150835EB42B06 /* Pods-VietmapNavigationSample.release.xcconfig */;
+			baseConfigurationReference = 24358A252C9D272D5EBD734C1037D187 /* Pods-VietmapNavigationSample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -647,15 +531,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FF69B5C4F483A5C61DC52F8BAC11E89B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4276D63792E28FC3A53C9196AB478464 /* SearchTextField.debug.xcconfig */;
+			baseConfigurationReference = 1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,20 +591,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C7985A46D8B2FFAC656904882AF7A55 /* Build configuration list for PBXAggregateTarget "VietMap" */ = {
+		B6B56244B115001428497B2B25E9E6D5 /* Build configuration list for PBXNativeTarget "Pods-VietmapNavigationSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68081341786DB05EF46BBC50788896C8 /* Debug */,
-				85CB6D2ABA7A91696A6B7FEA7F3F9DA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		929E72A8189236948B5A372E34CE65B5 /* Build configuration list for PBXNativeTarget "Pods-VietmapNavigationSample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4426D62995D3FCC9F9F9AC7F73AEAD7B /* Debug */,
-				9F69CB15C925FB010712E32AE48F044D /* Release */,
+				B72035C398FF3A3D638CB89D10666D00 /* Debug */,
+				21F55E6A8C15D2AA8CE1E2F2CF5D0480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
